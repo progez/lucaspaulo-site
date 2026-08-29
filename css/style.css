@@ -223,6 +223,7 @@ a { color: inherit; }
 .project-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .project h3 { font-family: var(--f-display); font-weight: 600; font-size: 24px; margin: 0 0 8px; }
 .project-date { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.project-client { font-family: var(--f-mono); font-size: 12.5px; letter-spacing: .03em; text-transform: uppercase; color: var(--signal); margin: 0 0 12px; }
 .project p { margin: 0 0 16px; color: var(--muted); max-width: 60ch; }
 .tags { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; }
 .tags li {
