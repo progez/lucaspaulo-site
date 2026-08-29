@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Lucas Paulo</title>
+  <meta name="description" content="Artigos sobre TI, integrações, automação e dados por Lucas Paulo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="../index.html" class="brand">Lucas Paulo<span class="brand-tag">/ti</span></a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="../index.html#servicos">Serviços</a>
+        <a href="../index.html#portfolio">Portfólio</a>
+        <a href="../index.html#sobre">Sobre</a>
+        <a href="../index.html#contato" class="nav-cta">Falar comigo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <p class="eyebrow">Blog</p>
+        <h1 class="section-title">Artigos</h1>
+        <div class="posts">
+          <article class="post">
+            <span class="post-date">em breve</span>
+            <h3>Primeiro artigo</h3>
+            <p>Aqui vai o resumo. Cada post é um arquivo .html em blog/posts/.</p>
+          </article>
+        </div>
+        <p class="note">↳ Adicionar posts em blog/posts/ e listar aqui. Migrar p/ gerador se crescer.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span class="brand">Lucas Paulo<span class="brand-tag">/ti</span></span>
+      <span class="copy">© <span id="year"></span> Lucas Paulo</span>
+    </div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
