@@ -233,14 +233,8 @@ a { color: inherit; }
 }
 
 /* ---------- Sobre ---------- */
-.sobre-inner { display: grid; grid-template-columns: 300px 1fr; gap: 48px; align-items: start; }
-.sobre-photo {
-  aspect-ratio: 4/5; background: var(--surface);
-  border: 1px solid var(--hairline); border-radius: var(--radius);
-  display: grid; place-items: center;
-}
-.sobre-photo span { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
-.sobre p { color: var(--ink-soft); max-width: 56ch; }
+.sobre-inner { max-width: 68ch; }
+.sobre p { color: var(--ink-soft); }
 
 /* ---------- Blog ---------- */
 .posts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
