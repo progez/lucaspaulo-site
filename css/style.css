@@ -285,6 +285,7 @@ a { color: inherit; }
 @media (max-width: 860px) {
   .focus-inner, .sobre-inner { grid-template-columns: 1fr; }
   .cards { grid-template-columns: repeat(2, 1fr); }
+  .cards-3 { grid-template-columns: repeat(3, 1fr); }
   .posts { grid-template-columns: 1fr; }
   .creds-grid { grid-template-columns: repeat(2, 1fr); gap: 28px; }
   .sobre-photo { max-width: 260px; }
